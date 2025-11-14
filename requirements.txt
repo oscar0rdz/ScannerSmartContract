@@ -1,0 +1,4 @@
+requests==2.32.3
+python-dotenv==1.0.1
+setuptools<81
+# web3 removed: token scanner now uses Etherscan logs + light RPC calls (requests)

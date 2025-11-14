@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Local environment file (contains keys)
+.env
+
+# Audit outputs and scanner artifacts
+audit_output/
+archive_before_push/
+scanner_*.json
+*.logs.txt
+candidates_for_audit.json
+usdt_contract_scan.json
+
+# Editor/temp
+.vscode/
+*.swp
+*.swo
